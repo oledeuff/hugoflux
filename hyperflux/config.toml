@@ -1,0 +1,25 @@
+baseURL = "http://example.org/"
+languageCode = "fr"
+title = "Flux de veille et de publications d'Olivier Le Deuff"
+theme = "academik-theme"
+
+[permalinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[author]
+  name = "Olivier Le Deuff"
+  bio = " **Enseignant-chercheur** en SIC, humanités digitales. Université Bordeaux Montaigne "
+  job = "Maître de conférences en sciences de l'information et de la communication"
+  location = "France"
+  # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
+  gravatarEmail = "oledeuff@gmail.com"
+  # Your profile picture
+  # Overwritten by your gravatar image if `author.gravatarEmail` is filled
+  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  # Your Twitter username without the @. E.g : neuromancien
+  # twitter = "neuromancien"
