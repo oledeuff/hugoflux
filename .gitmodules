@@ -1,0 +1,3 @@
+[submodule "themes/academik"]
+	path = themes/academik
+	url = https://github.com/gcushen/hugo-academic.git
